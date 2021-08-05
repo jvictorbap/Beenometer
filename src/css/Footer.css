@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  border-top: 3px solid rgb(255, 238, 0);
+}
+
+.Bloco2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Bloco2 h1{
+  margin-left: 40px;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+}
+
+#github {
+  height: 50px;
+  width: 125px;
+  margin-left: 300px;
+}
+
+#github:hover {
+  cursor: pointer;
+}
+
+#linkedin:hover {
+  cursor: pointer;
+}
+
+#linkedin {
+  height: 50px;
+  width: 185px;
+  margin-right: 240px;
+}

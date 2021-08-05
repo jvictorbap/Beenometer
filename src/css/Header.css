@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.Header {
+  background-color: black;
+  display: flex;
+  height: 100px;
+  border-bottom: 3px solid rgb(255, 238, 0);
+}
+
+#Bee {
+  width: 100px;
+  height: 100px
+}
+
+#Bee:hover{
+  cursor: pointer;
+}
+
+.Bloco1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Bloco1 h1{
+  margin-left: 40px;
+  color: rgb(255, 238, 0);
+  font-family: 'Pacifico', cursive;
+  font-size: 65px;
+}
+
+
